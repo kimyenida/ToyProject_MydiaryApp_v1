@@ -3,7 +3,7 @@
 //  MyFistApp
 //
 //  Created by Admin iMBC on 11/13/23.
-//
+// 다이어리앱
 
 import UIKit
 import CoreData
