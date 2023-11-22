@@ -102,14 +102,14 @@
 				9DA6F8832B01E2A80063CBE3 /* Controllers */,
 				9DFF19F02B019F9000A96EA7 /* AppDelegate.swift */,
 				9DFF19F22B019F9000A96EA7 /* SceneDelegate.swift */,
-				9DFF19F62B019F9000A96EA7 /* Main.storyboard */,
-				9DFF19F92B019F9200A96EA7 /* Assets.xcassets */,
-				9DFF19FB2B019F9200A96EA7 /* LaunchScreen.storyboard */,
-				9DFF19FE2B019F9200A96EA7 /* Info.plist */,
 				9DA6F8862B0205310063CBE3 /* ClearBtnExtension.swift */,
-				9DAD22ED2B05DDD600A47100 /* Userinfo.xcdatamodeld */,
+				9DFF19F62B019F9000A96EA7 /* Main.storyboard */,
+				9DFF19FB2B019F9200A96EA7 /* LaunchScreen.storyboard */,
 				9DAD230E2B05FE1900A47100 /* MyTableViewCell.xib */,
 				9DAD23102B05FE6F00A47100 /* MyTableViewCell.swift */,
+				9DFF19F92B019F9200A96EA7 /* Assets.xcassets */,
+				9DFF19FE2B019F9200A96EA7 /* Info.plist */,
+				9DAD22ED2B05DDD600A47100 /* Userinfo.xcdatamodeld */,
 			);
 			path = MyFistApp;
 			sourceTree = "<group>";

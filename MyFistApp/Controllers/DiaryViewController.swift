@@ -9,6 +9,9 @@ import UIKit
 import CoreData
 
 class DiaryViewController: UIViewController, SendDiaryProtocol {
+    deinit{
+        print("DiaryViewController - deinit 메모리에서 해제!")
+    }
     // WriteViewController의 delegate 프로토콜 함수 정의
     func sendDiary(title: String, content: String) {
         print("title: \(title), content: \(content)")
@@ -40,11 +43,26 @@ class DiaryViewController: UIViewController, SendDiaryProtocol {
         self.mytableview.dataSource = self
     }
     @IBAction func logoutBtnClicked(_ sender: UIButton) {
+        print("로그아웃 버튼 clicked")
         UserDefaults.standard.removeObject(forKey: "email")
         UserDefaults.standard.removeObject(forKey: "pwd")
         UserDefaults.standard.removeObject(forKey: "id")
         UserDefaults.standard.setValue(false, forKey: "autologin")
-        self.dismiss(animated: true)
+        
+        //self.dismiss(animated: true)
+        if self.presentingViewController == nil{
+            print("루트 뷰가 현재 다이어리 컨트롤러 뷰임")
+            guard let loginVC = self.storyboard?.instantiateViewController(withIdentifier:"loginVC") as? LoginViewController else{return}
+            loginVC.modalPresentationStyle = .fullScreen
+            
+
+            self.present(loginVC, animated: true)
+        }else{
+            print("루트 뷰가 로그인 컨트롤러 뷰임")
+            self.dismiss(animated: true)
+        }
+        
+
 
     }
     

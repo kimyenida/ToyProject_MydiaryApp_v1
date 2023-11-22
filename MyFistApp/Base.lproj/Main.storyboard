@@ -33,7 +33,7 @@
         <!--LoginViewController-->
         <scene sceneID="4R0-CL-UKX">
             <objects>
-                <viewController id="KZ5-rs-miY" userLabel="LoginViewController" customClass="LoginViewController" customModule="MyFistApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginVC" id="KZ5-rs-miY" userLabel="LoginViewController" customClass="LoginViewController" customModule="MyFistApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O5N-WP-fgJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

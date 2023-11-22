@@ -26,22 +26,24 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if UserDefaults.standard.bool(forKey: "autologin") == true{
-            let data1 = defaults.string(forKey: "email")
-            let data2 = defaults.string(forKey: "pwd")
-            let data3 = defaults.string(forKey: "id")
-            if let email = data1, let pwd = data2, let id = data3 {
-                print(email )
-                print(pwd )
-                print(id )
-                guard let diaryVC = self.storyboard?.instantiateViewController(withIdentifier:"diaryVC") as? DiaryViewController else{return}
-                diaryVC.modalPresentationStyle = .fullScreen
-                self.present(diaryVC, animated: true)
-                print("자동로그인 성공쓰")
-                return
-            }
-
-        }
+        self.presentingViewController?.dismiss(animated: false)
+        
+//        if UserDefaults.standard.bool(forKey: "autologin") == true{
+//            let data1 = defaults.string(forKey: "email")
+//            let data2 = defaults.string(forKey: "pwd")
+//            let data3 = defaults.string(forKey: "id")
+//            if let email = data1, let pwd = data2, let id = data3 {
+//                print(email )
+//                print(pwd )
+//                print(id )
+//                guard let diaryVC = self.storyboard?.instantiateViewController(withIdentifier:"diaryVC") as? DiaryViewController else{return}
+//                diaryVC.modalPresentationStyle = .fullScreen
+//                self.present(diaryVC, animated: false)
+//                print("자동로그인 성공쓰")
+//                return
+//            }
+//
+//        }
         
         
       
@@ -127,9 +129,9 @@ class LoginViewController: UIViewController {
         if validationEmail == uemail && validationPWD == upassword{
             print("로그인성공 다 들어맞음")
 //            if autologinSwitch.isOn{
-                UserDefaults.standard.set(uid, forKey: "id")
-                UserDefaults.standard.set(uemail, forKey: "email")
-                UserDefaults.standard.set(upassword, forKey: "pwd")
+                UserDefaults.standard.setValue(uid, forKey: "id")
+                UserDefaults.standard.setValue(uemail, forKey: "email")
+                UserDefaults.standard.setValue(upassword, forKey: "pwd")
                 guard let diaryVC = self.storyboard?.instantiateViewController(withIdentifier:"diaryVC") as? DiaryViewController else{return}
                 diaryVC.modalPresentationStyle = .fullScreen
                 self.present(diaryVC, animated: true)
@@ -138,8 +140,8 @@ class LoginViewController: UIViewController {
         }
         else{
             //실패
-            var alert = UIAlertController(title: "로그인 실패", message: "이메일 혹은 비밀번호가 틀립니다", preferredStyle: .alert)
-            var action = UIAlertAction(title: "OK", style: .default, handler: nil)
+            let alert = UIAlertController(title: "로그인 실패", message: "이메일 혹은 비밀번호가 틀립니다", preferredStyle: .alert)
+            let action = UIAlertAction(title: "OK", style: .default, handler: nil)
             alert.addAction(action)
             present(alert, animated: true, completion: nil)
         }
