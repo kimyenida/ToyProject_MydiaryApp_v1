@@ -13,13 +13,14 @@
 		9DA6F8872B0205310063CBE3 /* ClearBtnExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6F8862B0205310063CBE3 /* ClearBtnExtension.swift */; };
 		9DAD22EF2B05DDD600A47100 /* Userinfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD22ED2B05DDD600A47100 /* Userinfo.xcdatamodeld */; };
 		9DAD230D2B05F2B800A47100 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD230C2B05F2B800A47100 /* DiaryViewController.swift */; };
-		9DAD230F2B05FE1900A47100 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DAD230E2B05FE1900A47100 /* MyTableViewCell.xib */; };
 		9DAD23112B05FE6F00A47100 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD23102B05FE6F00A47100 /* MyTableViewCell.swift */; };
 		9DAD23132B06021400A47100 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD23122B06021400A47100 /* DetailViewController.swift */; };
 		9DAD23202B060D6D00A47100 /* Diary+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD231C2B060D6D00A47100 /* Diary+CoreDataClass.swift */; };
 		9DAD23212B060D6D00A47100 /* Diary+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD231D2B060D6D00A47100 /* Diary+CoreDataProperties.swift */; };
 		9DAD23222B060D6D00A47100 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD231E2B060D6D00A47100 /* User+CoreDataClass.swift */; };
 		9DAD23232B060D6D00A47100 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD231F2B060D6D00A47100 /* User+CoreDataProperties.swift */; };
+		9DB7FC2B2B1037A00001489F /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7FC2A2B1037A00001489F /* MyTableViewCell.xib */; };
+		9DB7FC2D2B1037C90001489F /* Mytableviewcellss.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7FC2C2B1037C90001489F /* Mytableviewcellss.xib */; };
 		9DFF19F12B019F9000A96EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF19F02B019F9000A96EA7 /* AppDelegate.swift */; };
 		9DFF19F32B019F9000A96EA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF19F22B019F9000A96EA7 /* SceneDelegate.swift */; };
 		9DFF19F52B019F9000A96EA7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF19F42B019F9000A96EA7 /* LoginViewController.swift */; };
@@ -35,13 +36,14 @@
 		9DA6F8862B0205310063CBE3 /* ClearBtnExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearBtnExtension.swift; sourceTree = "<group>"; };
 		9DAD22EE2B05DDD600A47100 /* Userinfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Userinfo.xcdatamodel; sourceTree = "<group>"; };
 		9DAD230C2B05F2B800A47100 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
-		9DAD230E2B05FE1900A47100 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyTableViewCell.xib; path = ../../../Prac_tableview/Prac_tableview/MyTableViewCell.xib; sourceTree = "<group>"; };
 		9DAD23102B05FE6F00A47100 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		9DAD23122B06021400A47100 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9DAD231C2B060D6D00A47100 /* Diary+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diary+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9DAD231D2B060D6D00A47100 /* Diary+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diary+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9DAD231E2B060D6D00A47100 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9DAD231F2B060D6D00A47100 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9DB7FC2A2B1037A00001489F /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyTableViewCell.xib; path = ../../../../../.Trash/MyTableViewCell.xib; sourceTree = "<group>"; };
+		9DB7FC2C2B1037C90001489F /* Mytableviewcellss.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Mytableviewcellss.xib; sourceTree = "<group>"; };
 		9DFF19ED2B019F9000A96EA7 /* MyFistApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFistApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFF19F02B019F9000A96EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DFF19F22B019F9000A96EA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,11 +107,12 @@
 				9DA6F8862B0205310063CBE3 /* ClearBtnExtension.swift */,
 				9DFF19F62B019F9000A96EA7 /* Main.storyboard */,
 				9DFF19FB2B019F9200A96EA7 /* LaunchScreen.storyboard */,
-				9DAD230E2B05FE1900A47100 /* MyTableViewCell.xib */,
+				9DB7FC2A2B1037A00001489F /* MyTableViewCell.xib */,
 				9DAD23102B05FE6F00A47100 /* MyTableViewCell.swift */,
 				9DFF19F92B019F9200A96EA7 /* Assets.xcassets */,
 				9DFF19FE2B019F9200A96EA7 /* Info.plist */,
 				9DAD22ED2B05DDD600A47100 /* Userinfo.xcdatamodeld */,
+				9DB7FC2C2B1037C90001489F /* Mytableviewcellss.xib */,
 			);
 			path = MyFistApp;
 			sourceTree = "<group>";
@@ -172,9 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB7FC2B2B1037A00001489F /* MyTableViewCell.xib in Resources */,
 				9DFF19FD2B019F9200A96EA7 /* LaunchScreen.storyboard in Resources */,
-				9DAD230F2B05FE1900A47100 /* MyTableViewCell.xib in Resources */,
 				9DFF19FA2B019F9200A96EA7 /* Assets.xcassets in Resources */,
+				9DB7FC2D2B1037C90001489F /* Mytableviewcellss.xib in Resources */,
 				9DFF19F82B019F9000A96EA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

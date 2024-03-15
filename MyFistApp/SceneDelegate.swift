@@ -16,6 +16,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private var appSwitcherModeImageView = UIImageView()
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        print("SceneDelegate - willConnectTo")
+
         guard let windowScene = scene as? UIWindowScene else{
             return
         }
